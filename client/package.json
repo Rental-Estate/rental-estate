@@ -9,14 +9,12 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
-    "autoprefixer": "^10.4.21",
     "axios": "^1.10.0",
-    "framer-motion": "^12.18.1",
+    "framer-motion": "^12.23.6",
     "jwt-decode": "^4.0.0",
     "leaflet": "^1.9.4",
     "lucide-react": "^0.515.0",
     "nodemailer": "^7.0.3",
-    "postcss": "^8.5.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hot-toast": "^2.5.2",
@@ -27,8 +25,7 @@
     "react-scripts": "5.0.1",
     "react-tabs": "^6.1.0",
     "socket.io-client": "^4.8.1",
-    "swiper": "^11.2.8",
-    "tailwindcss": "^3.4.3",
+    "swiper": "^11.2.10",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -56,6 +53,11 @@
     ]
   },
   "devDependencies": {
-    "react-app-rewired": "^2.2.1"
+    "@tailwindcss/postcss": "^4.1.11",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "postcss-loader": "^8.1.1",
+    "react-app-rewired": "^2.2.1",
+    "tailwindcss": "^4.1.11"
   }
 }
